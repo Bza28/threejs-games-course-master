@@ -26,7 +26,21 @@
 <body>
    <script>
      //Place your code here
-   </script> 
+       const planets = ["Mercury","Venus","Earth","Mars","jupiter","Saturn","Uranus","Neptune","Pluto"];
+
+      console.log('There are' + " " + planets.length + " " +'planets in the world');
+      console.log('Our planet is' +' '+ planets[2]);
+
+      function month() {
+        const month  = ["January", "february", "march" , "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+
+        const monthId = new Date().getMonth();
+
+        return month[monthId];
+      }
+      
+
+  </script> 
 </body>
 
 </html>
